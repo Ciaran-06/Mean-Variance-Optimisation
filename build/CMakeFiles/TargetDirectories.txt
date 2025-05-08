@@ -1,0 +1,3 @@
+/Users/ciarangaffney/Mean-Variance-Opt/build/CMakeFiles/main.dir
+/Users/ciarangaffney/Mean-Variance-Opt/build/CMakeFiles/edit_cache.dir
+/Users/ciarangaffney/Mean-Variance-Opt/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/ciarangaffney/Mean-Variance-Opt/build",
+  "command": "/usr/bin/c++  -I/opt/homebrew/include/eigen3 -isystem /opt/homebrew/include -std=gnu++17 -arch arm64 -o CMakeFiles/main.dir/main.cpp.o -c /Users/ciarangaffney/Mean-Variance-Opt/main.cpp",
+  "file": "/Users/ciarangaffney/Mean-Variance-Opt/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+}
+]
