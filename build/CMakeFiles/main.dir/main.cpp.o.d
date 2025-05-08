@@ -975,4 +975,68 @@ CMakeFiles/main.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/literals.h \
   /opt/homebrew/include/nlohmann/detail/macro_unscope.hpp \
-  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+  /usr/local/include/cpr/cpr.h /usr/local/include/cpr/api.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/future \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/formatter.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
+  /usr/local/include/cpr/async.h /usr/local/include/cpr/async_wrapper.h \
+  /usr/local/include/cpr/singleton.h /usr/local/include/cpr/threadpool.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/condition_variable \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
+  /usr/local/include/cpr/auth.h /usr/local/include/cpr/util.h \
+  /usr/local/include/cpr/callback.h /usr/local/include/cpr/cprtypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curl/curl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curl/curlver.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curl/system.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/socket.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/constrained_ctypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_param.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_param.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/net/net_kev.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sa_family_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_socklen_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_iovec_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/time.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval64.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curl/easy.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curl/multi.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curl/urlapi.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curl/options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curl/header.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curl/websockets.h \
+  /usr/local/include/cpr/cookies.h /usr/local/include/cpr/curlholder.h \
+  /usr/local/include/cpr/secure_string.h /usr/local/include/cpr/bearer.h \
+  /usr/local/include/cpr/filesystem.h /usr/local/include/cpr/multipart.h \
+  /usr/local/include/cpr/buffer.h /usr/local/include/cpr/file.h \
+  /usr/local/include/cpr/multiperform.h \
+  /usr/local/include/cpr/curlmultiholder.h \
+  /usr/local/include/cpr/response.h /usr/local/include/cpr/cert_info.h \
+  /usr/local/include/cpr/error.h /usr/local/include/cpr/ssl_options.h \
+  /usr/local/include/cpr/session.h \
+  /usr/local/include/cpr/accept_encoding.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
+  /usr/local/include/cpr/body.h /usr/local/include/cpr/connect_timeout.h \
+  /usr/local/include/cpr/timeout.h /usr/local/include/cpr/http_version.h \
+  /usr/local/include/cpr/interface.h /usr/local/include/cpr/limit_rate.h \
+  /usr/local/include/cpr/local_port.h \
+  /usr/local/include/cpr/local_port_range.h \
+  /usr/local/include/cpr/low_speed.h /usr/local/include/cpr/parameters.h \
+  /usr/local/include/cpr/curl_container.h \
+  /usr/local/include/cpr/payload.h /usr/local/include/cpr/proxies.h \
+  /usr/local/include/cpr/proxyauth.h /usr/local/include/cpr/range.h \
+  /usr/local/include/cpr/redirect.h \
+  /usr/local/include/cpr/reserve_size.h /usr/local/include/cpr/resolve.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
+  /usr/local/include/cpr/unix_socket.h \
+  /usr/local/include/cpr/user_agent.h /usr/local/include/cpr/verbose.h \
+  /usr/local/include/cpr/cprver.h /usr/local/include/cpr/interceptor.h \
+  /usr/local/include/cpr/ssl_ctx.h /usr/local/include/cpr/status_codes.h \
+  /Users/ciarangaffney/Mean-Variance-Opt/api/alphavantage.h

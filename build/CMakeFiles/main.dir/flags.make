@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/opt/homebrew/include/eigen3 -isystem /opt/homebrew/include
+CXX_INCLUDES = -I/opt/homebrew/include/eigen3 -I/Users/ciarangaffney/Mean-Variance-Opt/api -isystem /opt/homebrew/include
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 
