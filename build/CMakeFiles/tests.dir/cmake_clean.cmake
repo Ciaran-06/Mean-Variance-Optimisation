@@ -1,8 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tests.dir/api/alphavantage.cpp.o"
+  "CMakeFiles/tests.dir/api/alphavantage.cpp.o.d"
   "CMakeFiles/tests.dir/tests/test_utils.cpp.o"
   "CMakeFiles/tests.dir/tests/test_utils.cpp.o.d"
   "tests"
-  "tests-b12d07c_tests.cmake"
   "tests.pdb"
 )
 
