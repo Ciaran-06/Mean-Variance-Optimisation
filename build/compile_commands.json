@@ -1,8 +1,14 @@
 [
 {
   "directory": "/Users/ciarangaffney/Mean-Variance-Opt/build",
-  "command": "/usr/bin/c++  -I/opt/homebrew/include/eigen3 -I/Users/ciarangaffney/Mean-Variance-Opt/api -isystem /opt/homebrew/include -std=gnu++17 -arch arm64 -o CMakeFiles/main.dir/main.cpp.o -c /Users/ciarangaffney/Mean-Variance-Opt/main.cpp",
+  "command": "/usr/bin/c++  -I/Users/ciarangaffney/Mean-Variance-Opt/include -I/Users/ciarangaffney/Mean-Variance-Opt/api -I/opt/homebrew/include/eigen3 -isystem /opt/homebrew/include -std=gnu++17 -arch arm64 -o CMakeFiles/main.dir/main.cpp.o -c /Users/ciarangaffney/Mean-Variance-Opt/main.cpp",
   "file": "/Users/ciarangaffney/Mean-Variance-Opt/main.cpp",
   "output": "CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/ciarangaffney/Mean-Variance-Opt/build",
+  "command": "/usr/bin/c++  -I/Users/ciarangaffney/Mean-Variance-Opt/include -I/Users/ciarangaffney/Mean-Variance-Opt/api -I/opt/homebrew/include/eigen3 -isystem /opt/homebrew/include -std=gnu++17 -arch arm64 -o CMakeFiles/tests.dir/tests/test_utils.cpp.o -c /Users/ciarangaffney/Mean-Variance-Opt/tests/test_utils.cpp",
+  "file": "/Users/ciarangaffney/Mean-Variance-Opt/tests/test_utils.cpp",
+  "output": "CMakeFiles/tests.dir/tests/test_utils.cpp.o"
 }
 ]

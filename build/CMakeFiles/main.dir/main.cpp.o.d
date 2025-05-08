@@ -1039,4 +1039,5 @@ CMakeFiles/main.dir/main.cpp.o: \
   /usr/local/include/cpr/user_agent.h /usr/local/include/cpr/verbose.h \
   /usr/local/include/cpr/cprver.h /usr/local/include/cpr/interceptor.h \
   /usr/local/include/cpr/ssl_ctx.h /usr/local/include/cpr/status_codes.h \
+  /Users/ciarangaffney/Mean-Variance-Opt/include/dotenv.h \
   /Users/ciarangaffney/Mean-Variance-Opt/api/alphavantage.h
