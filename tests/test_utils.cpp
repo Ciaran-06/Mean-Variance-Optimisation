@@ -123,13 +123,11 @@ TEST_CASE("Handle single price data gracefully", "[calculate_daily_returns]")
 TEST_CASE("calculate_variance returns unbiased sample variance", "[variance]") {
     std::vector<double> r = {0.01, 0.02, 0.03, 0.01, -0.02};
 
-    double expected =
-        ( MODE == CovarMode::Sample )
-            ? 0.00037  /* hand‑calc: n‑1 = 4 */
-            : 0.00030; /* population: n = 5   */
+    constexpr CovarMode MODE = CovarMode::Sample;      // <─ or Population
+    double expected = (MODE == CovarMode::Sample) ? 0.00035 : 0.00028;
 
-    REQUIRE( calculate_variance(r, MODE) ==
-             Catch::Approx(expected).epsilon(1e-6) );
+    REQUIRE( calculate_variance(r, MODE)
+             == Catch::Approx(expected).epsilon(1e-6) );
 }
 
 TEST_CASE("calculate_covariance returns correct value", "[covariance]") {

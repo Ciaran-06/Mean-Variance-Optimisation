@@ -7,33 +7,37 @@
 #include <map>
 
 // ── optional denominator selector ───────────────
-enum class CovarMode { Sample, Population };
+enum class CovarMode
+{
+    Sample,
+    Population
+};
 
 // ------------ data‑fetch helpers ---------------
-std::string build_api_url(const std::string& symbol,
-                          const std::string& api_key,
-                          const std::string& output_size);
+std::string build_api_url(const std::string &symbol,
+                          const std::string &api_key,
+                          const std::string &output_size);
 
-std::map<std::string,std::map<std::string,double>>
-fetch_time_series(const std::vector<std::string>& tickers,
-                  const std::string& api_key,
-                  const std::string& output_size);
+std::map<std::string, std::map<std::string, double>> fetch_time_series(
+    const std::vector<std::string> &tickers,
+    const std::string &api_key,
+    const std::string &output_size);
 
 // ------------ statistics helpers ---------------
-double calculate_variance(const std::vector<double>& returns,
+double calculate_variance(const std::vector<double> &returns,
                           CovarMode mode = CovarMode::Population);
 
-double calculate_covariance(const std::vector<double>& r1,
-                            const std::vector<double>& r2,
+double calculate_covariance(const std::vector<double> &r1,
+                            const std::vector<double> &r2,
                             CovarMode mode = CovarMode::Population);
 
 std::map<std::string, std::map<std::string, double>>
 calculate_covariance_matrix(
-    const std::map<std::string, std::vector<double>>& dailyReturns,
+    const std::map<std::string, std::vector<double>> &dailyReturns,
     CovarMode mode = CovarMode::Population);
 
-std::map<std::string,std::vector<double>>
+std::map<std::string, std::vector<double>>
 calculate_daily_returns(const std::map<std::string,
-                                       std::map<std::string,double>>& priceTable);
+                                       std::map<std::string, double>> &priceTable);
 
 #endif
