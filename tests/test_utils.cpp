@@ -3,7 +3,7 @@
 #include <nlohmann/json.hpp>
 #include <iostream>
 
-#include "alphavantage.h"
+#include "tiingo.h"
 
 constexpr CovarMode MODE = CovarMode::Sample; 
 
@@ -16,32 +16,38 @@ static std::map<std::string,std::vector<double>> make_daily()
     };
 }
 
-TEST_CASE("build_api_url returns correct URL", "[url_builder]")
+TEST_CASE("build_api_url constructs correct Tiingo URL", "[build_api_url]")
 {
-    std::string symbol = "AAPL";
-    std::string api_key = "demo_key";
-    std::string output_size = "compact";
+    std::string ticker      = "AAPL";
+    std::string start_date  = "2023-01-01";
+    std::string end_date    = "2023-12-31";
 
-    std::string url = build_api_url(symbol, api_key, output_size);
+    std::string url = build_api_url(ticker, start_date, end_date);
 
-    SECTION("URL contains base")
+    SECTION("Base endpoint")
     {
-        REQUIRE(url.find("https://www.alphavantage.co/query?") == 0);
+        REQUIRE(url.rfind("https://api.tiingo.com/tiingo/daily/", 0) == 0);
     }
 
-    SECTION("URL includes symbol")
+    SECTION("Ticker path")
     {
-        REQUIRE(url.find("symbol=AAPL") != std::string::npos);
+        REQUIRE(url.find("/AAPL/prices") != std::string::npos);
     }
 
-    SECTION("URL includes output size")
+    SECTION("Start‑date parameter")
     {
-        REQUIRE(url.find("outputsize=compact") != std::string::npos);
+        REQUIRE(url.find("startDate=2023-01-01") != std::string::npos);
     }
 
-    SECTION("URL includes API key")
+    SECTION("End‑date parameter")
     {
-        REQUIRE(url.find("apikey=demo_key") != std::string::npos);
+        REQUIRE(url.find("endDate=2023-12-31") != std::string::npos);
+    }
+
+    SECTION("Optional format parameter (json)")
+    {
+        // If your build_api_url appends "&format=json"
+        REQUIRE(url.find("format=json") != std::string::npos);
     }
 }
 

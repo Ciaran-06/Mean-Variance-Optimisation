@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/ciarangaffney/Mean-Variance-Opt/api/alphavantage.cpp" "CMakeFiles/main.dir/api/alphavantage.cpp.o" "gcc" "CMakeFiles/main.dir/api/alphavantage.cpp.o.d"
+  "/Users/ciarangaffney/Mean-Variance-Opt/api/tiingo.cpp" "CMakeFiles/main.dir/api/tiingo.cpp.o" "gcc" "CMakeFiles/main.dir/api/tiingo.cpp.o.d"
   "/Users/ciarangaffney/Mean-Variance-Opt/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
   )
 

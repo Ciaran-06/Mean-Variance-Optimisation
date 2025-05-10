@@ -7,9 +7,9 @@
 },
 {
   "directory": "/Users/ciarangaffney/Mean-Variance-Opt/build",
-  "command": "/usr/bin/c++  -I/Users/ciarangaffney/Mean-Variance-Opt/include -I/Users/ciarangaffney/Mean-Variance-Opt/api -I/opt/homebrew/include/eigen3 -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/main.dir/api/alphavantage.cpp.o -c /Users/ciarangaffney/Mean-Variance-Opt/api/alphavantage.cpp",
-  "file": "/Users/ciarangaffney/Mean-Variance-Opt/api/alphavantage.cpp",
-  "output": "CMakeFiles/main.dir/api/alphavantage.cpp.o"
+  "command": "/usr/bin/c++  -I/Users/ciarangaffney/Mean-Variance-Opt/include -I/Users/ciarangaffney/Mean-Variance-Opt/api -I/opt/homebrew/include/eigen3 -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/main.dir/api/tiingo.cpp.o -c /Users/ciarangaffney/Mean-Variance-Opt/api/tiingo.cpp",
+  "file": "/Users/ciarangaffney/Mean-Variance-Opt/api/tiingo.cpp",
+  "output": "CMakeFiles/main.dir/api/tiingo.cpp.o"
 },
 {
   "directory": "/Users/ciarangaffney/Mean-Variance-Opt/build",
@@ -19,8 +19,8 @@
 },
 {
   "directory": "/Users/ciarangaffney/Mean-Variance-Opt/build",
-  "command": "/usr/bin/c++  -I/Users/ciarangaffney/Mean-Variance-Opt/include -I/Users/ciarangaffney/Mean-Variance-Opt/api -I/opt/homebrew/include/eigen3 -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/tests.dir/api/alphavantage.cpp.o -c /Users/ciarangaffney/Mean-Variance-Opt/api/alphavantage.cpp",
-  "file": "/Users/ciarangaffney/Mean-Variance-Opt/api/alphavantage.cpp",
-  "output": "CMakeFiles/tests.dir/api/alphavantage.cpp.o"
+  "command": "/usr/bin/c++  -I/Users/ciarangaffney/Mean-Variance-Opt/include -I/Users/ciarangaffney/Mean-Variance-Opt/api -I/opt/homebrew/include/eigen3 -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/tests.dir/api/tiingo.cpp.o -c /Users/ciarangaffney/Mean-Variance-Opt/api/tiingo.cpp",
+  "file": "/Users/ciarangaffney/Mean-Variance-Opt/api/tiingo.cpp",
+  "output": "CMakeFiles/tests.dir/api/tiingo.cpp.o"
 }
 ]

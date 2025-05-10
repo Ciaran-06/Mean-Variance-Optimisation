@@ -86,30 +86,30 @@ CMakeFiles/tests.dir/tests/test_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/test_utils.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ciarangaffney/Mean-Variance-Opt/tests/test_utils.cpp -o CMakeFiles/tests.dir/tests/test_utils.cpp.s
 
-CMakeFiles/tests.dir/api/alphavantage.cpp.o: CMakeFiles/tests.dir/flags.make
-CMakeFiles/tests.dir/api/alphavantage.cpp.o: /Users/ciarangaffney/Mean-Variance-Opt/api/alphavantage.cpp
-CMakeFiles/tests.dir/api/alphavantage.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ciarangaffney/Mean-Variance-Opt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tests.dir/api/alphavantage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/api/alphavantage.cpp.o -MF CMakeFiles/tests.dir/api/alphavantage.cpp.o.d -o CMakeFiles/tests.dir/api/alphavantage.cpp.o -c /Users/ciarangaffney/Mean-Variance-Opt/api/alphavantage.cpp
+CMakeFiles/tests.dir/api/tiingo.cpp.o: CMakeFiles/tests.dir/flags.make
+CMakeFiles/tests.dir/api/tiingo.cpp.o: /Users/ciarangaffney/Mean-Variance-Opt/api/tiingo.cpp
+CMakeFiles/tests.dir/api/tiingo.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ciarangaffney/Mean-Variance-Opt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tests.dir/api/tiingo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/api/tiingo.cpp.o -MF CMakeFiles/tests.dir/api/tiingo.cpp.o.d -o CMakeFiles/tests.dir/api/tiingo.cpp.o -c /Users/ciarangaffney/Mean-Variance-Opt/api/tiingo.cpp
 
-CMakeFiles/tests.dir/api/alphavantage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/api/alphavantage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ciarangaffney/Mean-Variance-Opt/api/alphavantage.cpp > CMakeFiles/tests.dir/api/alphavantage.cpp.i
+CMakeFiles/tests.dir/api/tiingo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/api/tiingo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ciarangaffney/Mean-Variance-Opt/api/tiingo.cpp > CMakeFiles/tests.dir/api/tiingo.cpp.i
 
-CMakeFiles/tests.dir/api/alphavantage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/api/alphavantage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ciarangaffney/Mean-Variance-Opt/api/alphavantage.cpp -o CMakeFiles/tests.dir/api/alphavantage.cpp.s
+CMakeFiles/tests.dir/api/tiingo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/api/tiingo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ciarangaffney/Mean-Variance-Opt/api/tiingo.cpp -o CMakeFiles/tests.dir/api/tiingo.cpp.s
 
 # Object files for target tests
 tests_OBJECTS = \
 "CMakeFiles/tests.dir/tests/test_utils.cpp.o" \
-"CMakeFiles/tests.dir/api/alphavantage.cpp.o"
+"CMakeFiles/tests.dir/api/tiingo.cpp.o"
 
 # External object files for target tests
 tests_EXTERNAL_OBJECTS =
 
 tests: CMakeFiles/tests.dir/tests/test_utils.cpp.o
-tests: CMakeFiles/tests.dir/api/alphavantage.cpp.o
+tests: CMakeFiles/tests.dir/api/tiingo.cpp.o
 tests: CMakeFiles/tests.dir/build.make
 tests: /usr/local/lib/libcpr.a
 tests: /usr/local/lib/libCatch2Main.a

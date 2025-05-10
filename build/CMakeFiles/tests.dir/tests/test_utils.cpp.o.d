@@ -1019,4 +1019,4 @@ CMakeFiles/tests.dir/tests/test_utils.cpp.o: \
   /opt/homebrew/include/nlohmann/detail/macro_unscope.hpp \
   /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
-  /Users/ciarangaffney/Mean-Variance-Opt/api/alphavantage.h
+  /Users/ciarangaffney/Mean-Variance-Opt/api/tiingo.h

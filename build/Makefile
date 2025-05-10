@@ -142,32 +142,32 @@ tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
-api/alphavantage.o: api/alphavantage.cpp.o
-.PHONY : api/alphavantage.o
+api/tiingo.o: api/tiingo.cpp.o
+.PHONY : api/tiingo.o
 
 # target to build an object file
-api/alphavantage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/api/alphavantage.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/api/alphavantage.cpp.o
-.PHONY : api/alphavantage.cpp.o
+api/tiingo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/api/tiingo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/api/tiingo.cpp.o
+.PHONY : api/tiingo.cpp.o
 
-api/alphavantage.i: api/alphavantage.cpp.i
-.PHONY : api/alphavantage.i
+api/tiingo.i: api/tiingo.cpp.i
+.PHONY : api/tiingo.i
 
 # target to preprocess a source file
-api/alphavantage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/api/alphavantage.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/api/alphavantage.cpp.i
-.PHONY : api/alphavantage.cpp.i
+api/tiingo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/api/tiingo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/api/tiingo.cpp.i
+.PHONY : api/tiingo.cpp.i
 
-api/alphavantage.s: api/alphavantage.cpp.s
-.PHONY : api/alphavantage.s
+api/tiingo.s: api/tiingo.cpp.s
+.PHONY : api/tiingo.s
 
 # target to generate assembly for a file
-api/alphavantage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/api/alphavantage.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/api/alphavantage.cpp.s
-.PHONY : api/alphavantage.cpp.s
+api/tiingo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/api/tiingo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/api/tiingo.cpp.s
+.PHONY : api/tiingo.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -227,9 +227,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... main"
 	@echo "... tests"
-	@echo "... api/alphavantage.o"
-	@echo "... api/alphavantage.i"
-	@echo "... api/alphavantage.s"
+	@echo "... api/tiingo.o"
+	@echo "... api/tiingo.i"
+	@echo "... api/tiingo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
